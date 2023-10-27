@@ -1,0 +1,92 @@
+.bb {
+    z-index: 10;
+    width:100%;
+      background-color:black;
+      position:fixed;
+      height: 60px;
+      padding-bottom:10px;
+  }
+
+  nav#navbar.hidden {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+  
+  nav {
+      background-color: transparent;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      left: -100%; /* Initially hide the navigation bar */
+      transition: left 0.3s;
+  }
+  
+  .menu-button {
+      display: flex;
+      flex-direction: column;
+      cursor: pointer;
+  }
+  
+  .nav-links {
+    height:57px;
+      list-style: none;
+      padding: 0;
+      display: flex;
+  }
+  
+  .nav-links li {
+      margin-right: 20px;
+  }
+  
+  .nav-links li:last-child {
+      margin-right: 0;
+  }
+  
+  .nav-links a.active {
+    border-color:#ffffff;
+    border-width:4px;
+    border-radius: 10px;
+    text-decoration:overline;
+    color:white;
+  }
+  
+  .nav-links a:hover {
+    border-color:#ffffff;
+    border-width:4px;
+    border-radius: 10px;
+      border-radius: 10px;
+  }
+  
+  #ham1, #ham2 {
+      width: 30px; /* Adjust the size as needed */
+      height: 30px; /* Adjust the size as needed */
+      position:sticky;
+      padding:20px;
+      left: 200%;
+  }
+
+  a:hover {
+      text-decoration: underline;
+  }
+  
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #000000;
+    }
+  
+  li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }

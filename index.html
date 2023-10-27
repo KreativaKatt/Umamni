@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - HCDW</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="about-nav.css">
+    <script src="index.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&family=Martel+Sans:wght@300;400&family=Vampiro+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="bb"> <!-- Black bar container -->
+                <h1 class="title">Honors Creative Design for the Web</h4>
+            <div class="menu-button" id="hamburger-menu" onclick="toggleNav()">
+                <img src="ham1.png" id="ham1" alt="Hamburger Menu Icon">
+                <img src="ham2.png" id="ham2" alt="Hamburger Menu Icon" style="display: none;">
+            </div>
+            <nav id="navbar" class="hidden">
+                <ul class="nav-links">
+                    <li class="nav-li"><a href="cafe.html">HOME</a></li>
+                    <li class="nav-li"><a href="menu.html">MENU</a></li>
+                    <li class="nav-li"><a class="active" href="index.html">ABOUT</a></li>
+                    <li class="nav-li"><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <br>
+    <main>
+    <p> Hello there! My name is Caroline "Cara Beth" Erikson, and this is my digital portfolio, showcasing all the rad work I've done in my Honors Creative Design for the Web class.</p>
+
+    <p> Why a portfolio, you ask? Well, in the ever-expanding galaxy of the web, it's easy to feel like a small star. This portfolio is my telescope, making it easier for you to see my skills, creativity, and growth.</p>
+        
+    <p>Feel free to explore and check out the various projects and assignments. Each one is like a milestone on my coding journey. So sit back, relax, and enjoy the tour! </p>
+
+    <h2>Introduction to HTML</h2>
+    <p>HTML is the standard markup language for creating web pages.</p>
+    <hr>
+    <!--<section id="sect1">-->
+    <section>
+    <h3>What is HTML?</h3>
+    <ul><!--unorderded list-->
+        <li>Abbreheiation for HyperText Markup Language</li>
+        <li>The standard language for creating webpages</li>
+        <li>Defines the structure of the page</li>
+        <li>Consists of elements</li>
+        <li>HTML elements tells the browser how to display the content</li>
+        <li>HTML elements label content</li>
+    </ul>
+    </section>
+    <hr>
+    <section>
+        <h3>Get to Know Me</h3>
+        <h4>5 Songs to Add to Your Playlist RIGHT NOW</h4>
+        <ul>
+            <li>Banana Pancakes - Jack Johnson</li>
+            <li>All Star - Smash Mouth (RIP)</li>
+            <li>Dark Red - Steve Lacy</li>
+            <li>Mountain of the Sun - Greta Van Fleet</li>
+            <li>Here With Me - d4vd</li>
+        </ul>
+    <section>
+        <h4>top 5 food</h4> 
+      <ol><!--ordered list-->
+      <li>Swedish Pancakes</li>
+      <li>Sushi, specifically eel</li>
+      <li>Pasta Alla Vodka</li>
+      <li>Philly Cheesteak</li>
+      <li>Shrimp Tacos</li>
+      </ol>
+      <figure>
+        <img src="sushi.jpg" alt="Picture of various types of sashmi sushi." width="30%">
+        <figcaption>Photo by <em><strong>cottonbro studio</strong></em></figcaption>
+    <hr>
+    <section>
+    <h3>Links & Images in HTML</h3>
+    <p>HTML links are defined with the a tag:</p>
+    <a href="https://ncssm.instructure.com/" target="_blank" rel="noopener noreferrer">Canvas</a>
+    <h4>Images in HTML</h4>
+    <p>Click the picture below to explore <a href="https://www.exploreboone.com/" target="_blank" rel="noreferrer noopener">
+        Boone,</a> NC</p>
+    <a href="https://www.exploreboone.com/" target="_blank" rel="noreferrer noopener">
+    <figure>
+        <img src="mountain.jpg" alt="Peaceful image of a mountain." width="60%">
+    <figcaption>Photo by <em>Joyston Judah</em></figcaption>
+    </a>    
+    </figure>
+    <img src="https://c.pxhere.com/photos/86/86/forest_fog_misty_grunge_trees_nature_wood_autumn-959049.jpg!d" alt="Mountain with trees in a hazy morning" width="50%">
+    </section>
+    <hr>
+    <section class="form">
+        <fieldset>
+        <h2>FORM</h2>
+        <form action="index.html">
+        <legend><strong>Please enter your name.</strong></legend>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname"> <br>
+            <label for="lname">Last Name:</label> <br>
+            <input type="text" id="lname" name="lname">
+        </form>
+    </fieldset>
+        <fieldset>
+        <form action="index.html">
+            <legend><strong>What is the best season?</strong></legend>
+            <input type="radio" id="fall" name="fav_season" value="Fall" checked>
+            <label for="fall">Fall</label><br>
+            <input type="radio" id="winter" name="fav_season" value="winter">
+            <label for="winter">Winter</label><br>
+            <input type="radio" id="spring" name="fav_season" value="spring">
+            <label for="spring">Spring</label><br>
+            <input type="radio" id="summer" name="fav_season" value="summer">
+            <label for="summer">Summer</label><br>
+            </form>
+        </fieldset>
+        <fieldset>
+            <form action="index.html">
+            <legend><strong>What is your favorite color?</strong></legend>
+            <input type="radio" id="red" name="fav_color" value="Red" checked>
+            <label for="red">Red</label><br>
+            <input type="radio" id="orange" name="fav_color" value="Orange">
+            <label for="orange">Orange</label><br>
+            <input type="radio" id="yellow" name="fav_color" value="Yellow">
+            <label for="yellow">Yellow</label><br>
+            <input type="radio" id="green" name="fav_color" value="Green">
+            <label for="green">Green</label><br>
+            <input type="radio" id="blue" name="fav_color" value="Blue">
+            <label for="Blue">Blue</label><br>
+            <input type="radio" id="purple" name="fav_color" value="Purle">
+            <label for="purple">Purple</label><br>
+            <input type="radio" id="pink" name="fav_color" value="Pink">
+            <label for="pink">Pink</label><br>
+            </form>
+        </fieldset>
+        <fieldset>
+        <form action="index.html">
+            <legend><strong>What instruments do you play?</strong></legend>
+            <input type="checkbox" id="guitar" name="fav_inst" value="Guitar" checked>
+            <label for="guitar">Guitar</label><br>
+            <input type="checkbox" id="piano" name="fav_inst" value="piano">
+            <label for="piano">Piano</label><br>                <input type="checkbox" id="bass" name="fav_inst" value="bass">
+            <label for="bass">Bass</label><br>
+            <input type="checkbox" id="ukelele" name="fav_inst" value="ukelele">
+            <label for="ukelele">Ukelele</label><br>
+            </form>
+            <form action="index.html">
+                <input type="submit" value="Submit">
+        </fieldset>
+        </form>
+</section>
+<section>
+<h3>Class Schedule</h3>
+    <table>
+        <tr>
+            <th>1st Period</th>
+            <th>2nd Period</th>
+            <th>3rd Period</th>
+            <th>4th Period</th>
+        </tr>
+        <tr1>
+            <td>Biology</td>
+            <td>HCDW</td>
+            <td>Excel</td>
+            <td>Art</td>
+        </tr1>
+        <tr>
+            <td>Wake Tech</td>
+            <td>NCSSM</td>
+            <td>EWA</td>
+            <td>EWA</td>
+        </tr>
+        <tr>
+            <td>8:15-9:45</td>
+            <td>9:50-11:10</td>
+            <td>12:05-1:40</td>
+            <td>1:45-3:15</td>
+        </tr>
+    </table>
+</section>
+</main>
+<footer>
+    <p>Ur mom!!!!</p>
+</footer>
+</body><!--We are outside of the body-->
+</html><!--el fin-->

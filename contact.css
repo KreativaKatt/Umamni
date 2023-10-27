@@ -1,0 +1,93 @@
+.resume-container {
+    margin-left:15%;
+    margin-right:10%;
+    display: inline-block;
+    justify-content: space-between; /* Add space between images */
+    padding: 60px; /* Adjust padding as needed */
+    align-items: center;
+    max-width: 60%; /*Ensure it doesn't overflow the screen */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.resume-container img {
+    max-width:100%; /* Ensure images scale to fit the container */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+body {
+    background-color:#EFE2DB;
+    background-size:auto;
+    background-position: center;
+}
+
+footer {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    padding:20px;
+    background-color: #182739;
+    color: #fff;
+    margin:0px;
+    align-items:center;
+}
+
+footer.p {
+    padding-bottom:20px;
+}
+
+
+/* Reset some default browser styles */
+body, h1, h2, h3, h4, p, ul, ol, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style links */
+a {
+  color: #007BFF;
+  text-decoration: none;
+}
+
+h5 {
+  text-align:left;
+  font-size: 40px;
+  font-family:'Fira Sans', sans-serif;
+  margin:0px;
+
+}
+
+  .portfolio-button {
+    position: absolute;
+    bottom: 125px; /* Adjust the distance from the bottom as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #F69838;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 60px;
+    text-decoration: none;
+    width: 500px;
+    height: auto;
+    font-size: 40px;
+
+    box-shadow: 10px 10px 0 #182739;
+
+}
+
+.button-container {
+position: relative;
+text-align: center;
+font-family: 'Fira Sans', sans-serif;
+}
+
+.portfolio-button:hover {
+    background-color: #FEB2A6; 
+    text-decoration:none;
+    color:#182739;
+}
+
+.portfolio-button:active {
+    box-shadow:none;
+    margin: 10px 10px 0;
+}

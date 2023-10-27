@@ -1,0 +1,151 @@
+
+body {
+    background-image: url(platter.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white(255, 255, 255);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*title*/
+h1, h3, p { 
+    text-align: center;
+}
+
+h5 {
+    text-align:left;
+    font-size: 45px;
+    font-family:'Fira Sans', sans-serif;
+    margin:0px;
+
+}
+
+li, ul, ol, p, h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+.menu{
+    width:80%;
+    background-color: rgba(0, 0, 0, 0.80);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+h2 {
+    padding-bottom:20px;
+    margin-bottom:10px;
+}
+
+.sushititles {
+    text-align:left;
+    width:85%;
+    font-size: 40px;
+    margin-left:10px;
+}
+
+.menusectiontitle {
+    display: flex;
+    align-items: center;
+    margin-bottom:10px;
+}
+
+.sushiicons {
+    width: 15%;
+}
+
+.food{
+    text-align: left;
+    width:75%;
+}
+
+.price{
+    text-align:right;
+    width:25%;
+}
+
+.item p{
+    display: inline-block;
+}
+
+/*typography*/
+
+h2, h3{
+    font-family:'Fira Sans', sans-serif;
+}
+
+h2 {
+font-size: 24px;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+h4 {
+    font-family:'Fira Sans', sans-serif;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+table, th, td{
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+/* Reset some default browser styles */
+body, h1, h2, h3, h4, p, table {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.80);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 80px;
+    padding-bottom:30px;
+    position: relative; /* Establish a positioning context for child elements */
+}
+
+/*RAH RAH RUSPUTIN*/
+h1{
+    font-family:'Vampiro One', sans-serif;
+    font-size:100px;
+}
+
+
+p, li{
+    font-family:'Martel Sans', sans-serif;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+}
+
+/* Style images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

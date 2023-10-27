@@ -1,0 +1,176 @@
+/*
+body {
+    background-color: #f0f0f0
+}
+
+main {
+    background-color:white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin:90px;
+    margin-left:300px;
+    margin-right:300px;
+}
+
+p ul ol li {
+    font-family: 'Martel Sans', sans-serif;
+    font-size:16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    padding:20px;
+}
+
+h2 h3 h4 {
+    font-family:'Fira Sans', sans-serif;
+    font-size: 20px;
+    margin-top:20px;
+    line-height: 2px;
+    padding:20px;
+}
+
+footer {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    padding:20px;
+    background-color: black;
+    color: #fff;
+    margin:0px;
+    align-items:center;
+}
+
+footer.p {
+    padding-bottom:20px;
+} */
+
+body {
+    background-color: #f0f0f0;
+}
+
+main {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 90px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+main p, main ul, main ol, main li {
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+main h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 35px;
+    line-height: 1.5;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+main h2 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 30px;
+    line-height: 1.5;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+main h3 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 25px;
+    line-height: 1.5;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+main h4 {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+main ul, main ol {
+    padding-left: 40px; /* Adjust the padding as needed */
+}
+
+footer {
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    margin: 0;
+}
+
+footer p {
+    padding-bottom: 20px;
+}
+
+/* Rest of your CSS remains the same */
+
+
+/* Style links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+    font-family:'Martel Sans', sans-serif;
+  }
+
+  a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    border: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+table, th, td{
+    border:1px solid black;
+    border-collapse: collapse;
+    font-family:'Martel Sans', sans-serif;
+    padding:2px;
+    padding-left:6px;
+    padding-right:6px;
+}
+
+
+/* Reset some default browser styles*/
+body, h1, h2, h3, h4, p, ul, ol, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+legend, label, input {
+    font-family:'Martel Sans', sans-serif;
+}
+
+.title-and-menu {
+    display: flex;
+    align-items: center;
+}
+
+h4.title {
+    font-family:'Martel Sans', sans-serif;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding-left:10px;
+}
+
+ul, li{
+    font-family:'Martel Sans', sans-serif;
+}
+
